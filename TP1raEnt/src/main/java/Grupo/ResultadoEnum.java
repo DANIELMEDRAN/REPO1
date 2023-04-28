@@ -1,5 +1,5 @@
 package Grupo;
 
 public enum ResultadoEnum {
-Ganador, Empate, Perdedor
+Ganador, Empate, Perdedor, GanaEquipo2, GanaEquipo1, SinDefinir
 }

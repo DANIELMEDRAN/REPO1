@@ -35,7 +35,7 @@ public class Main {
                 String[] campos =  lineaResultado.split(",");
                 Equipo equipo1 = new Equipo(campos[0]);
                 Equipo equipo2 = new Equipo(campos[3]);
-                Partido partido = new Partido(equipo1,equipo2);
+                Partido partido = new Partido(0, equipo1,equipo2, 0, 0);
                 partido.setGolesEq1(Integer.parseInt(campos[1]));
                 partido.setGolesEq2(Integer.parseInt(campos[2]));
                 partidos.add(partido);
@@ -91,6 +91,7 @@ public class Main {
                 puntos += pronostico.puntos(); 
             } 
         }
+        
         System.out.println("El puntaje obtenido por el Participante es:");
         System.out.println(puntos);
     }

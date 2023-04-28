@@ -1,6 +1,12 @@
+Grupo\ListaPronosticos.class
 Grupo\ResultadoEnum.class
-Grupo\Main.class
-Grupo\Participante.class
+Grupo\MegaConstructor.class
 Grupo\Equipo.class
-Grupo\Partido.class
 Grupo\Pronostico.class
+Grupo\Main.class
+Grupo\ListaParticipantes.class
+Grupo\TestPronosticos.class
+Grupo\Participante.class
+Grupo\Partido.class
+Grupo\Ronda.class
+org\junit\jupiter\api\Test.class

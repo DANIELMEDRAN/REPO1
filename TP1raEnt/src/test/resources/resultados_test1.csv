@@ -1,5 +1,5 @@
-Equipo 1,CantGoles 1,CantGoles 2,Equipo 2
-Argentina,1,2,Arabia Saudita
-Polonia,0,0,México
-Brasil,4,2,Italia
-Francia,1,2,Alemania
+ID-Partido,Ronda,Equipo 1,Cant. goles 1,Cant. goles 2,Equipo 2
+R1P1,1,Argentina,1,2,Arabia Saudita
+R1P2,2,Polonia,0,0,Mexico
+R1P3,3,Argentina,2,0,Mexico
+R1P4,4,Arabia Saudita,0,2,Polonia

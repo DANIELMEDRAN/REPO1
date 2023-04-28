@@ -1,17 +1,20 @@
 package Grupo;
 
-public class Partido {
 
+public class Partido {
+	
+	private int id;
 	private Equipo equipo1;
 	private Equipo equipo2;
 	private int golesEq1;
 	private int golesEq2;
+	private ResultadoEnum resultado;
 	
-	
-	public Partido(Equipo equipo1, Equipo equipo2) {
-		super();
+	public Partido(int id, Equipo equipo1, Equipo equipo2, int golesEquipo1, int golesEquipo2) {
+		this.setId(id);		
 		this.equipo1 = equipo1;
 		this.equipo2 = equipo2;
+		this.setResultado(resultado);
 	}
 	public Equipo getEquipo1() {
 		return equipo1;
@@ -54,6 +57,39 @@ public class Partido {
 		}
 		
 	  }
-		return null;
+		return resultado;
+		
 	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public ResultadoEnum getResultado() {
+		return resultado;
+	}
+	public void setResultado(ResultadoEnum resultado) {
+		this.resultado = resultado;
+	}
+	
+	public String getResultadoAsString() {
+		String auxStr= "";
+		if (this.resultado==ResultadoEnum.Empate) {
+			auxStr= "Empate entre "+this.equipo1.getNombre()+" y "+this.equipo2.getNombre() ;
+		}
+		else 
+			if (this.resultado==ResultadoEnum.GanaEquipo1) {
+				auxStr= "Gana Equipo 1 "+this.equipo1.getNombre() ;
+			}
+			else 
+				if (this.resultado==ResultadoEnum.GanaEquipo2) {
+					auxStr= "Gana Equipo 2 "+this.equipo2.getNombre() ;
+				}
+
+		return auxStr;
+	}
+
+
+
 }

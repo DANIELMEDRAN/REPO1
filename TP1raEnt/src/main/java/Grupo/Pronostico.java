@@ -4,12 +4,19 @@ public class Pronostico {
 
 	private Partido partido;
 	private Equipo equipo;
+	private int idDelPronostico;
+	private int idDelPartido;
 	private ResultadoEnum resultado;
+	
 	public Pronostico(Partido partido, Equipo equipo, ResultadoEnum campos) {
-		super();
+		int idPartido = 0;
+		this.idDelPartido = idPartido;
 		this.partido = partido;
 		this.equipo = equipo;
 		this.resultado = campos;
+	}
+	public Pronostico(String nombreParticipante, int idPartido, ResultadoEnum intToEnum) {
+		
 	}
 	public Partido getPartido() {
 		return this.partido;
@@ -28,5 +35,12 @@ public class Pronostico {
 	}	else {
 			return 0;
 	}
+	}
+	public Object getApuesta() {
+		return null;
+	}
+	public String getPartic() {
+		
+		return null;
 	}
 }

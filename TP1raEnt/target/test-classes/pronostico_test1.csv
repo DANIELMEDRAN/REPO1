@@ -1,5 +1,23 @@
-Equipo 1,Gana 1,Empata,Gana 2,Equipo 2
-Argentina,X,,,Arabia Saudita
-Polonia,,X,,México
-Brasil,,,X,Italia
-Francia,,,X,Alemania
+ID-partido,Ronda,Equipo 1,Gana 1,Empata,Gana 2,Equipo 2,Participante
+R1P1,1,Argentina,X,,,Arabia Saudita,Mariana
+R1P2,2,Polonia,,X,,Mexico,Mariana
+R1P3,3,Argentina,X,,,Mexico,Mariana
+R1P4,4,Arabia Saudita,,X,,Polonia,Mariana
+R1P1,1,Argentina,X,-,-,Arabia Saudita,Pedro
+R1P2,2,Polonia,-,-,X,Mexico,Pedro
+R1P3,3,Argentina,X,-,-,Mexico,Pedro
+R1P4,4,Arabia Saudita,-,X,-,Polonia,Pedro
+R1P1,1,Argentina,-,-,X,Arabia Saudita,Julia
+R1P2,2,Polonia,-,X,-,Mexico,Julia
+R1P3,3,Argentina,X,-,-,Mexico,Julia
+R1P4,4,Arabia Saudita,-,X,-,Polonia,Julia
+R1P1,1,Argentina,-,-,X,Arabia Saudita,Juan
+R1P2,2,Polonia,-,X,-,Mexico,Juan
+R1P3,3,Argentina,-,-,X,Mexico,Juan
+R1P4,4,Arabia Saudita,-,X,-,Polonia,Juan
+R1P1,1,Argentina,-,-,X,Arabia Saudita,Luis
+R1P2,2,Polonia,-,X,-,Mexico,Luis
+R1P3,3,Argentina,X,-,-,Mexico,Luis
+R1P4,4,Arabia Saudita,-,-,X,Polonia,Luis
+
+
